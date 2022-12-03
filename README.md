@@ -38,6 +38,7 @@ void setup() {
   p = new Serial(this, "COM6", 9600);
 }
 String msg;
+
 void draw() {
   c = s.available();
   if (c!=null) {
@@ -65,5 +66,6 @@ void draw() {
 }
 
 // 앱인벤터
+
 ![image](https://user-images.githubusercontent.com/119734977/205438477-7c4d9adc-51b4-43eb-bf03-d7163edacd68.png)
 ![image](https://user-images.githubusercontent.com/119734977/205438499-297d6bdb-c5e7-4493-99cc-d578f60f60a5.png)
